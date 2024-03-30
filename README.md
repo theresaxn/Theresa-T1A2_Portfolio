@@ -17,7 +17,8 @@ URL:
 - draw.io (Sitemap)
 - Figma (Wireframes)
 - Coolors (Colour Scheme)
-
+- Google Font (Font Styling)
+- 
 
 ## Functionality / Features
 
