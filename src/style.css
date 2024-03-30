@@ -85,7 +85,7 @@ footer {
     display: flex;
     justify-content: center;
 	align-items: center;
-	align-self: center;
+	align-self: flex-end;
 }
 
 .contact-icons {
