@@ -9,7 +9,7 @@
 --sunglow: #ffcb69ff;
 --earth-yellow: #e8ac65ff;
 --persian-orange: #d08c60ff;
---chamoisee: rgb(59, 40, 27);
+--chamoisee: #b58463ff;
 --beaver: #997b66ff;
 }
 
@@ -72,7 +72,7 @@ nav > a {
 nav > a:hover {
     background-color: var(--sunglow);
     margin-bottom: 1.5dvh;
-    border: solid black;
+    border: 0.2em solid var(--earth-yellow);
 }
 
 /* footer styling */
@@ -118,7 +118,7 @@ main {
 }
 
 .about {
-    animation: fadeInDown 1s;
+    animation: slideInDown 1s;
 }
 
 /* projects and blogs img styling */
@@ -136,7 +136,7 @@ main {
 .project2,
 .project3 {
     border: 0.2em solid black;
-    animation: zoomIn 1s;
+    animation: fadeInDown 1s;
 }
 
 /* default button styling */
@@ -148,6 +148,7 @@ main {
     font-size: medium;
     width: 6em;
     animation: bounceInLeft 1s;
+    box-shadow: 0.3em 0.3em 0.1em;
 }
 
 button > a {
@@ -170,13 +171,12 @@ button > a {
 }
 
 /* button hover styling */
-.button > a:hover {
-    padding: 1em;
-}
-
 .button:hover {
-    padding: 0.5em;
-    transition: 1s;
+    background-color: var(--chamoisee);
+    box-shadow: none;
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+    box-shadow: 0.1em 0.1em 0.1em;
 }
 
 /* about, project and blog section styling */
