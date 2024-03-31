@@ -38,16 +38,15 @@ Using Google Fonts, Encode Sans Condensed was chosen for the website. Keeping ac
 Animations found on animate.css were mainly used on images or buttons to help keep the website fun and exciting. Button animations were kept consistent through the entire website and several animations were used on images for some variation (image animations in a single page were kept the same to avoid overstimulation).
 
 #### Components
-- Header
-- Nav
-- Footer
-- Main
-- Section, Article
-- Img
-- Button
-- a tag
-
-typograph - ensuring san serif font type was used for accessibility
+- *Header tag* used to contain the navbar, this appears at the top on every page.
+- *Nav tag* used to contain various links to different pages on the website, this appears at the top on every page. There is hover styling which moves the selected box in the navbar to move up and also change colour to provide website engagement.
+- *Footer tag* used to show copyright, this appears at the bottom of every page.
+- *Main tag* used to contain content that is not located in the header or footer of the page.
+- *H#, p tags* used for different text styling, where # is a number between 1-6.
+- *Section, Article tag* used to identify different sections on a single page and can be exhibited by a green background colour. There is hover styling which removes the border-radius to provide website engagement.
+- *Img, figure tag* used for images/gifs throughout the website.
+- *Button tag* used for all links within the main tag throughout the website. There is hover styling which depicts the button having been clicked on to provide website enagement. 
+- *a tag* used for links to direct the viewer to alternative internal pages on the website or external sites.
 
 ## Sitemap
 ![Sitemap](/docs/Sitemap.png)
