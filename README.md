@@ -18,7 +18,7 @@ URL:
 - Figma (Wireframes)
 - Coolors (Colour Scheme)
 - Google Font (Font Styling)
-- 
+- animate.css (Animations)
 
 ## Functionality / Features
 

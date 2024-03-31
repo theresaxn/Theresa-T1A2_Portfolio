@@ -1,0 +1,65 @@
+/* desktop view */
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
+    /* img styling */
+    .img {
+        height: auto;
+        max-height: 40dvh;
+        width: auto;
+        max-width: 50dvw;
+    }
+
+    #aboutselfie {
+        max-height: 30dvh;
+    }
+
+    /* about page img in personal life styling */
+    figure {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 30dvw;
+    }
+    .personal {
+        height: auto;
+        max-height: 25dvh;
+        max-width: 100%;
+        border-radius: 1em; 
+        margin: 0.3em;
+    }
+
+    /* about, project and blog section styling */
+    .contentrow {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogpost,
+    .projectpreview {
+        max-width: 25dvw;
+        min-height: 40dvh;
+        margin: 1em;
+        padding: 2em;
+    }
+
+    /* project and blog img styling */
+    .project,
+    .blog {
+        height: auto;
+        max-height: 30dvh;
+        width: auto;
+        max-width: 25dvw;
+    }
+
+    .contact-contentrow {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2em;
+    }
+} 

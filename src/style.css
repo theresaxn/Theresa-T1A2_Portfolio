@@ -13,7 +13,7 @@
 --beaver: #997b66ff;
 }
 
-/* mobile first styling */
+/* catered towards mobile view */
 
 /* default styling for entire doc */
 * {
@@ -99,15 +99,44 @@ main {
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
-    row-gap: 0.9em;
+    row-gap: 0.5em;
 }
 
 /* default img styling */
 .img {
     height: 30dvh;
+    width: auto;
     max-width: 85dvw;
     object-fit: contain;
     border-radius: 0.7em;
+}
+
+/* home and contact img animation */
+.home, 
+.contact {
+    animation: bounceInRight 1s;
+}
+
+.about {
+    animation: fadeInDown 1s;
+}
+
+/* projects and blogs img styling */
+.project,
+.blog {
+    height: auto;
+    max-height: 30dvh;
+    width: auto;
+    max-width: 80dvw;
+    animation: zoomIn 1s;
+}
+
+/* individual project img styling */
+.project1,
+.project2,
+.project3 {
+    border: 0.2em solid black;
+    animation: zoomIn 1s;
 }
 
 /* default button styling */
@@ -118,6 +147,7 @@ main {
     padding: 0.7dvh;
     font-size: medium;
     width: 6em;
+    animation: bounceInLeft 1s;
 }
 
 button > a {
@@ -126,22 +156,30 @@ button > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .projindiv-button {
     width: 10em;
+}
+
+.disabled {
     border-radius: 0.7em;
     font-size: medium;
     padding: 0.7dvh;
+    animation: bounceInLeft 1s;
 }
 
-/* projects and blogs img styling */
-.blog {
-    height: 20dvh;
+/* button hover styling */
+.button > a:hover {
+    padding: 1em;
 }
 
-/* about, blog and project section styling */
+.button:hover {
+    padding: 0.5em;
+    transition: 1s;
+}
+
+/* about, project and blog section styling */
 .blogpost,
 .projectpreview,
 .about-section {
@@ -150,12 +188,17 @@ button > a {
     justify-content: center;
     align-items: center;
     row-gap: 1em;
-    margin: 1.5em;
+    margin: 0.7em;
     padding: 1em;
     border-radius: 2.5em;
     background-color: var(--moss-green);
     filter: drop-shadow(0.6em 0.6em 0.4em var(--reseda-green));
-    max-width: 90dvw;
+    max-width: 85dvw;
+    min-height: 20dvh;
+}
+
+.about-section {
+    max-width: 60dvw;
 }
 
 .about-section > ul {
@@ -168,12 +211,12 @@ figure {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 20dvw;
+    width: 30dvw;
 }
 
 .personal {
-    height: 18dvh;
-    width: auto;
+    height: auto;
+    width: 100%;
     border-radius: 1em; 
     margin: 0.3em;
 }
@@ -198,9 +241,4 @@ figure {
 .about-section:hover {
     transition: 1s;
     border-radius: 0;
-}
-
-.blog:active {
-    transition: 2;
-    transform: scale(1.5,1.5);
 }
