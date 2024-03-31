@@ -58,7 +58,7 @@ nav > a {
     color: black;
     margin: 0.1em;
     border-radius: 1em;
-    width: 20dvw;
+    width: 19.5dvw;
     height: 5dvh;
     display: flex;
     justify-content: center;
@@ -159,6 +159,14 @@ button > a {
     align-items: center;
 }
 
+.projindiv-links {
+    width: 22em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .projindiv-button {
     width: 10em;
 }
@@ -168,6 +176,7 @@ button > a {
     font-size: medium;
     padding: 0.7dvh;
     animation: bounceInLeft 1s;
+    box-shadow: 0.3em 0.3em 0.1em;
 }
 
 /* button hover styling */
