@@ -187,8 +187,8 @@ button > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1em;
-    margin: 0.7em;
+    row-gap: 2em;
+    margin: 1.5em;
     padding: 1em;
     border-radius: 2.5em;
     background-color: var(--moss-green);

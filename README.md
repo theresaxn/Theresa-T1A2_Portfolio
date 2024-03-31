@@ -41,5 +41,38 @@ wireframes - Moss-green represents separate sections on html doc in body
 
 ### Deployed Website
 #### Mobile View
+Home  
+![Deployed Website Mobile View (Home)](/docs/Website%20Mobile%20View%20-%20Home.png)  
+About  
+![Deployed Website Mobile View (About)](/docs/Website%20Mobile%20View%20-%20About%201.png)
+![Deployed Website Mobile View (About)](/docs/Website%20Mobile%20View%20-%20About%202.png)  
+Projects (List)  
+![Deployed Website Mobile View (Projects List)](/docs/Website%20Mobile%20View%20-%20Projects%201.png)
+![Deployed Website Mobile View (Projects List)](/docs/Website%20Mobile%20View%20-%20Projects%202.png)  
+Projects (Individual)  
+All individual project pages follow the same format  
+![Deployed Website Mobile View (Projects Individual)](/docs/Website%20Mobile%20View%20-%20Project1%201.png)
+![Deployed Website Mobile View (Projects Individual)](/docs/Website%20Mobile%20View%20-%20Project1%202.png)  
+Blogs  
+![Deployed Website Mobile View (Blogs)](/docs/Website%20Mobile%20View%20-%20Blogs%201.png)
+![Deployed Website Mobile View (Blogs)](/docs/Website%20Mobile%20View%20-%20Blogs%202.png)
+![Deployed Website Mobile View (Blogs)](/docs/Website%20Mobile%20View%20-%20Blogs%203.png)  
+Contact  
+![Deployed Website Mobile View (Contact)](/docs/Website%20Mobile%20View%20-%20Contact.png)
 
 #### Desktop View
+Home  
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Home.png)  
+About  
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20About%201.png)
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20About%202.png)  
+Projects (List) 
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Projects.png)  
+Projects (Individual) 
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Project1%201.png)
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Project1%202.png)  
+Blogs  
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Blogs%201.png)
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Blogs%202.png)  
+Contact  
+![Deployed Website Desktop View (Home)](/docs/Website%20Desktop%20View%20-%20Contact.png)  
