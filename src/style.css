@@ -13,6 +13,8 @@
 --beaver: #997b66ff;
 }
 
+/* mobile first styling */
+
 /* default styling for entire doc */
 * {
     margin: 0;
@@ -21,7 +23,7 @@
     font-style: normal;
 }
 
-/* body styling */
+/* all body styling */
 body {
     display: flex;
     flex-direction: column;
@@ -33,7 +35,7 @@ body {
 /* header styling */
 header {
     background-color: var(--beaver);
-    height: 5dvh;
+    height: 6.5dvh;
     width: 100%;
     padding: 0.3em;
     display: flex;
@@ -42,7 +44,7 @@ header {
     align-self: center;
 }
 
-/* navbar styling */
+/* navbar in header styling */
 nav {
     margin: 0.1em;
     display: flex;
@@ -50,7 +52,6 @@ nav {
     align-items: center;
 }
 
-/* navbar anchor tag styling */
 nav > a {
     text-decoration: none;
     background-color: var(--peach-yellow);
@@ -63,6 +64,15 @@ nav > a {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    transition: 0.2s;
+}
+
+/* navbar hover styling */
+
+nav > a:hover {
+    background-color: var(--sunglow);
+    margin-bottom: 1.5dvh;
+    border: solid black;
 }
 
 /* footer styling */
@@ -80,7 +90,7 @@ footer {
 
 /* main styling */
 main {
-    min-height: 90dvh;
+    min-height: 88.5dvh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -95,12 +105,12 @@ main {
 /* default img styling */
 .img {
     height: 30dvh;
-    width: 80dvw;
+    max-width: 85dvw;
     object-fit: contain;
-    border-radius: 1em;
+    border-radius: 0.7em;
 }
 
-/* button styling */
+/* default button styling */
 .button {
     border-color: black;
     border-radius: 0.7em;
@@ -126,7 +136,7 @@ button > a {
     padding: 0.7dvh;
 }
 
-/* blog img styling */
+/* projects and blogs img styling */
 .blog {
     height: 20dvh;
 }
@@ -142,9 +152,9 @@ button > a {
     row-gap: 1em;
     margin: 1.5em;
     padding: 1em;
-    border-radius: 1.5em;
+    border-radius: 2.5em;
     background-color: var(--moss-green);
-    filter: drop-shadow(0.5em 0.5em 0.3em var(--reseda-green));
+    filter: drop-shadow(0.6em 0.6em 0.4em var(--reseda-green));
     max-width: 90dvw;
 }
 
@@ -152,8 +162,23 @@ button > a {
     text-align: left;
 }
 
-/* contact styling */
+/* about page img in personal life styling */
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20dvw;
+}
 
+.personal {
+    height: 18dvh;
+    width: auto;
+    border-radius: 1em; 
+    margin: 0.3em;
+}
+
+/* contact me styling */
 .contact-indiv {
     display: flex;
     flex-direction: row;
@@ -165,4 +190,17 @@ button > a {
 
 .contact-icons {
     height: 2em;
+}
+
+/* about, blog and project section hover styling */
+.blogpost:hover,
+.projectpreview:hover,
+.about-section:hover {
+    transition: 1s;
+    border-radius: 0;
+}
+
+.blog:active {
+    transition: 2;
+    transform: scale(1.5,1.5);
 }
