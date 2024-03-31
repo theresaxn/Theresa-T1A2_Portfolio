@@ -34,7 +34,7 @@ The overall layout for the website was kept simple as to not overwhelm the viewe
 #### Typography
 Using Google Fonts, Encode Sans Condensed was chosen for the website. Keeping accessibility in mind, a san-serif font type was used.
 
-### Animations
+#### Animations
 Animations found on animate.css were mainly used on images or buttons to help keep the website fun and exciting. Button animations were kept consistent through the entire website and several animations were used on images for some variation (image animations in a single page were kept the same to avoid overstimulation).
 
 #### Components
