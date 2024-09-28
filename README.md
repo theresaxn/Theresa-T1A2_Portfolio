@@ -1,7 +1,7 @@
 # T1A2 Portfolio
 URL:  
 - [Portfolio Website](https://theresa-t1a2-portfolio.netlify.app/)  
-- [GitHub Repository](https://github.com/theresanx/Theresa-T1A2_Portfolio)
+- [GitHub Repository](https://github.com/theresaxn/Theresa-T1A2_Portfolio)
 
 ## Purpose
 My purpose is to design a visually appealing, fully functional and responsive website using HTML and CSS to demonstrate my current abilities to potential employers.
